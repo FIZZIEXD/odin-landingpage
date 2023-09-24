@@ -109,7 +109,23 @@
   border-radius: 20px;
 }
 
-/* .image img {
-  width: 100%;
-  height: auto;
-} */
+.quote-container {
+  display: flex;
+  background-color: #e5e7eb;
+  height: 500px;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding: 250px;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+}
+
+.quote-author {
+  font-weight: 500;
+  font-size: 25px;
+  margin-left: 550px;
+}
